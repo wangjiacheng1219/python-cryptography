@@ -21,23 +21,6 @@ This project is inspired by the following course:
 
 ---
 
-## Original Course Project
-
-The original coursework was completed by the **Codebreakers** team:
-
-- Jiacheng Wang
-- Muhammad Usman Afzal
-- Peisong Xu
-
-Together we completed the three course modules:
-
-- Substitution Ciphers
-- Stream Ciphers
-- Block Ciphers
-
-The version published in this repository has been reorganized and documented
-by **Jiacheng Wang**.
-
 ## Repository Goals
 
 - Implement cryptographic algorithms in Python.
