@@ -1,11 +1,12 @@
 # Python Cryptography
 
-This repository focuses on implementing classical cryptographic algorithms
-from scratch, exploring cryptanalysis techniques, and documenting the
-underlying mathematical principles.
+This repository presents Python implementations of classical cryptographic
+algorithms originally developed as part of a team coursework project for the
+University of Bologna.
 
-It is intended as both a learning resource and a long-term educational project
-that will continue to grow beyond the original coursework.
+The current GitHub version has been reorganized, refined, and extended by
+**Jiacheng Wang** as an independent educational project and will continue to
+grow beyond the original coursework.
 
 ---
 
@@ -19,6 +20,23 @@ This project is inspired by the following course:
 - **Official Course Repository:** [marchioa/security](https://github.com/marchioa/security)
 
 ---
+
+## Original Course Project
+
+The original coursework was completed by the **Codebreakers** team:
+
+- Jiacheng Wang
+- Muhammad Usman Afzal
+- Peisong Xu
+
+Together we completed the three course modules:
+
+- Substitution Ciphers
+- Stream Ciphers
+- Block Ciphers
+
+The version published in this repository has been reorganized and documented
+by **Jiacheng Wang**.
 
 ## Repository Goals
 
@@ -125,8 +143,12 @@ for designing and teaching the
 *90392 - Elements of Applied Data Security M* course and for providing the
 official course materials that inspired this project.
 
-This repository contains my own implementations created for learning and
-educational purposes. It is not an official course repository.
+I would also like to thank my teammates, **Muhammad Usman Afzal** and
+**Peisong Xu**, for their collaboration on the original course assignments.
+
+This repository is not an official course repository. The version published
+here has been reorganized and documented by **Jiacheng Wang**—hopefully with
+a few more updates to come.
 
 ---
 
