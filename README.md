@@ -1,6 +1,11 @@
 # Python Cryptography
 
-The repository focuses on implementing classical cryptographic algorithms from scratch, exploring cryptanalysis techniques, and documenting the underlying mathematical principles. It is intended as both a learning resource and a long-term educational project that will continue to grow beyond the original coursework.
+This repository focuses on implementing classical cryptographic algorithms
+from scratch, exploring cryptanalysis techniques, and documenting the
+underlying mathematical principles.
+
+It is intended as both a learning resource and a long-term educational project
+that will continue to grow beyond the original coursework.
 
 ---
 
@@ -8,21 +13,19 @@ The repository focuses on implementing classical cryptographic algorithms from s
 
 This project is inspired by the following course:
 
-- **Course:** 90392 - Elements of Applied Data Security M
-- **Instructor:** Dr. Alex Marchioni
-- **Institution:** Alma Mater Studiorum – University of Bologna
 - **Course:** [90392 - Elements of Applied Data Security M](https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/443929)
 - **Instructor:** [Dr. Alex Marchioni](https://www.unibo.it/sitoweb/alex.marchioni/en)
+- **Institution:** Alma Mater Studiorum – University of Bologna
 - **Official Course Repository:** [marchioa/security](https://github.com/marchioa/security)
 
 ---
 
 ## Repository Goals
 
-- Implement cryptographic algorithms in Python
-- Explore cryptanalysis techniques
-- Document concepts learned during the course
-- Extend beyond the original coursework with additional algorithms and experiments
+- Implement cryptographic algorithms in Python.
+- Explore practical cryptanalysis techniques.
+- Document the mathematical concepts introduced during the course.
+- Extend the project with additional algorithms and experiments.
 
 ---
 
@@ -33,23 +36,23 @@ python-cryptography/
 │
 ├── README.md
 ├── LICENSE
+├── .gitignore
 │
-├── Substitution_Ciphers/
-│   ├── affine_cipher.ipynb
-│   ├── frequency_analysis.ipynb
-│   ├── wikipedia_cybersecurity.txt
-│   └── README.md
-│
-└── ...
+└── Substitution_Ciphers/
+    ├── Substitution_Ciphers.ipynb
+    ├── ciphertext_affine.txt
+    ├── ciphertext_caesar.txt
+    ├── ciphertext_simple.txt
+    ├── distribution.pkl
+    └── wikipedia_cybersecurity.txt
 ```
 
-Each folder contains:
+The `Substitution_Ciphers` folder contains:
 
-- Source code
-- Experimental notebooks
-- Explanations
-- Datasets, when needed
-- A dedicated README describing the algorithms
+- A Jupyter notebook with the implementations and experiments
+- Ciphertext files used for cryptanalysis exercises
+- English-language frequency-distribution data
+- Sample text used for encryption and frequency analysis
 
 ---
 
@@ -57,7 +60,7 @@ Each folder contains:
 
 ### Requirements
 
-- Python 3.10+
+- Python 3.10 or later
 - Jupyter Notebook
 
 Install the required packages:
@@ -79,10 +82,54 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 
-Open any notebook and execute the cells from top to bottom.
+Then open:
+
+```text
+Substitution_Ciphers/Substitution_Ciphers.ipynb
+```
+
+Run the notebook cells from top to bottom.
+
+---
+
+## Current Contents
+
+The current notebook covers classical substitution ciphers and related
+cryptanalysis techniques, including:
+
+- Caesar cipher
+- Affine cipher
+- Simple substitution cipher
+- Brute-force key search
+- Letter-frequency analysis
+
+---
+
+## Future Plans
+
+Planned extensions include:
+
+- Additional classical ciphers
+- Modern cryptographic algorithms
+- More detailed mathematical explanations
+- Separate notebooks for individual topics
+- Performance comparisons and experiments
+
+---
 
 ## Acknowledgements
 
-I would like to express my sincere gratitude to **Dr. Alex Marchioni** for designing and teaching the **90392 - Elements of Applied Data Security M** course, and for providing the official course materials and repository that inspired this project.
+I would like to express my sincere gratitude to
+[Dr. Alex Marchioni](https://www.unibo.it/sitoweb/alex.marchioni/en)
+for designing and teaching the
+*90392 - Elements of Applied Data Security M* course and for providing the
+official course materials that inspired this project.
 
-This repository contains **my own implementations** created for learning and educational purposes. It is **not an official course repository**.
+This repository contains my own implementations created for learning and
+educational purposes. It is not an official course repository.
+
+---
+
+## License
+
+This project is released under the MIT License.
