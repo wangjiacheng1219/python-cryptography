@@ -122,16 +122,17 @@ Planned extensions include:
 
 I would like to express my sincere gratitude to
 [Dr. Alex Marchioni](https://www.unibo.it/sitoweb/alex.marchioni/en)
-for designing and teaching the
-*90392 - Elements of Applied Data Security M* course and for providing the
-official course materials that inspired this project.
+for designing and teaching the *90392 – Elements of Applied Data Security M*
+course and for providing the official course materials that inspired this
+project.
 
-I would also like to thank my teammates, **Muhammad Usman Afzal** and
-**Peisong Xu**, for their collaboration on the original course assignments.
+I would also like to thank my teammates,
+**Muhammad Usman Afzal** and **Peisong Xu**, for being part of the
+**Codebreakers** team and for their collaboration on the original course
+assignments.
 
-This repository is not an official course repository. The version published
-here has been reorganized and documented by **Jiacheng Wang**—hopefully with
-a few more updates to come.
+This repository is not an official course repository. Any modifications,
+reorganization, and future additions are my own.
 
 ---
 
