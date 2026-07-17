@@ -45,29 +45,39 @@ python-cryptography/
 
 Each folder contains:
 
-source code
-experimental notebooks
-explanations
-datasets (when needed)
-a dedicated README describing the algorithms
+- Source code
+- Experimental notebooks
+- Explanations
+- Datasets, when needed
+- A dedicated README describing the algorithms
 
-Quick Start
-Requirements
-Python 3.10+
-Jupyter Notebook
+---
+
+## Quick Start
+
+### Requirements
+
+- Python 3.10+
+- Jupyter Notebook
 
 Install the required packages:
 
+```bash
 pip install numpy matplotlib jupyter
+```
 
 Clone the repository:
 
+```bash
 git clone https://github.com/wangjiacheng1219/python-cryptography.git
 cd python-cryptography
+```
 
 Launch Jupyter Notebook:
 
+```bash
 jupyter notebook
+```
 
 Open any notebook and execute the cells from top to bottom.
 
