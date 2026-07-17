@@ -2,7 +2,6 @@
 
 A personal collection of Python implementations of cryptographic algorithms for learning, experimentation, and education.
 
-This repository was originally inspired by the [**90392 - Elements of Applied Data Security M**](https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/443929) course at **Alma Mater Studiorum – University of Bologna**.
 ---
 
 ## Course Information
