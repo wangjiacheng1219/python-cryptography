@@ -1,6 +1,6 @@
 # Python Cryptography
 
-A personal collection of Python implementations of cryptographic algorithms for learning, experimentation, and education.
+The repository focuses on implementing classical cryptographic algorithms from scratch, exploring cryptanalysis techniques, and documenting the underlying mathematical principles. It is intended as both a learning resource and a long-term educational project that will continue to grow beyond the original coursework.
 
 ---
 
@@ -25,6 +25,48 @@ This project is inspired by the following course:
 - Extend beyond the original coursework with additional algorithms and experiments
 
 ---
+
+## Repository Structure
+python-cryptography/
+│
+├── README.md
+├── LICENSE
+│
+├── Substitution_Ciphers/
+│   ├── affine_cipher.ipynb
+│   ├── frequency_analysis.ipynb
+│   ├── wikipedia_cybersecurity.txt
+│   └── README.md
+│
+└── ...
+
+Each folder contains:
+
+source code
+experimental notebooks
+explanations
+datasets (when needed)
+a dedicated README describing the algorithms
+
+Quick Start
+Requirements
+Python 3.10+
+Jupyter Notebook
+
+Install the required packages:
+
+pip install numpy matplotlib jupyter
+
+Clone the repository:
+
+git clone https://github.com/wangjiacheng1219/python-cryptography.git
+cd python-cryptography
+
+Launch Jupyter Notebook:
+
+jupyter notebook
+
+Open any notebook and execute the cells from top to bottom.
 
 ## Acknowledgements
 
