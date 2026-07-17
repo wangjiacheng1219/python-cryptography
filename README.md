@@ -1,12 +1,12 @@
 # Python Cryptography
 
-This repository presents Python implementations of classical cryptographic
-algorithms originally developed as part of a team coursework project for the
-University of Bologna.
+This repository contains Python implementations of classical cryptographic
+algorithms and cryptanalysis techniques developed during the
+*Elements of Applied Data Security M* course at the University of Bologna.
 
-The current GitHub version has been reorganized, refined, and extended by
-**Jiacheng Wang** as an independent educational project and will continue to
-grow beyond the original coursework.
+The original coursework was completed as a team project. The version published
+here has since been reorganized, refined, and documented by **Jiacheng Wang**,
+with a few more updates hopefully to come.
 
 ---
 
