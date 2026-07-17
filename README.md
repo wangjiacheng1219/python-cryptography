@@ -27,6 +27,8 @@ This project is inspired by the following course:
 ---
 
 ## Repository Structure
+
+```text
 python-cryptography/
 │
 ├── README.md
@@ -39,6 +41,7 @@ python-cryptography/
 │   └── README.md
 │
 └── ...
+```
 
 Each folder contains:
 
